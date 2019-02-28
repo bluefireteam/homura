@@ -1,0 +1,45 @@
+body {
+  font-family: verdana;
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+.panel {
+  border: 1px solid #e5e5e5;
+  background-color: #222;
+  margin: 5px;
+}
+
+.tab-bar-container {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.tab-bar-container ul li {
+  margin-left: 10px;
+  border-top: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+
+.tab-bar-container ul li.selected {
+  background-color: #e5e5e5;
+}
+
+.tab-bar-container ul li.selected .tab-name-label {
+  color: #000;
+}
+
+.tab-bar-container ul li .close-tab {
+  color: #999;
+}
+
+.tab-bar-container ul li.selected .close-tab {
+  color: #333;
+}
+
+.system-icon.disabled {
+  color: #333;
+}

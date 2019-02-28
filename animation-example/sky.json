@@ -1,0 +1,23 @@
+{
+  "name": "Sky Race",
+  "size": { "width": 128, "height": 128 },
+  "layers": [
+    {
+      "asset": "clouds.png",
+      "effect": {
+        "type": "BACKGROUND_PARALLAX",
+        "speed": 100,
+        "repeat": true
+      }
+    },
+    {
+      "asset": "plane.png",
+      "effect": {
+        "type": "SPRITESHEET_ANIMATION",
+        "frames": 4,
+        "speed": 100,
+        "repeat": true
+      }
+    }
+  ]
+}
